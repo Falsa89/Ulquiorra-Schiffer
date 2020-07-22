@@ -1,8 +1,8 @@
 <?php
 
 // PARAMETRI DA MODIFICARE
-$WEBHOOK_URL = 'https://ZarakiKenpachi.000webhostapp.com/webhook.php';
-$BOT_TOKEN = '1250574456:AAE3Oe9yo3voRHmnW1C1X8tjkAOLUbeXaBU';
+$WEBHOOK_URL = 'https://Ulquiorra-Schiffer.heroku.com/execute.php';
+$BOT_TOKEN = '1245166485:AAFrYttGfp0hyrFr9padDgHppExk21ZkW8M';
 
 // NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
 $parameters = array('url' => $WEBHOOK_URL);
