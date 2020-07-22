@@ -34,10 +34,6 @@ elseif (strpos($text, "desider") !== false)
 {
 	$response = "Possiedo un cuore dunque invidio, possiedo un cuore dunque divoro, possiedo un cuore dunque depredo, possiedo un cuore dunque sono pigro, possiedo un cuore dunque sono superbo, possiedo un cuore dunque mi adiro, possiedo un cuore dunque desidero tutto!";
 }
-elseif (strpos($text, "donna") !== false)
-{
-	$response = "Vieni con me donna, non parlare. L'unica parola che ti è permessa è 'si'. Qualsiasi altra cosa tu dica è morte, non per te ma per i tuoi compagni. Non chiedere niente non raccontare niente, tu non hai nessun diritto ... Comprendilo bene, questa non è una negoziazione, è un ordine, donna.";
-}
 if (strpos($text, "fine") !== false) 
 {
 	$response = "Gli è rimasta ancora un po' di reatsu... ma questo è il suo limite... è la fine. la vostra fortuna è finita.. il sole è già tramontato nel palmo delle nostre mani!";
