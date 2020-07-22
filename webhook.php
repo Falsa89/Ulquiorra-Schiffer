@@ -70,19 +70,16 @@ elseif (strpos($text, "somigli") !== false)
 elseif (strpos($text, "disper") !== false)
 {
 	$response = "Le tue parole sono quelle di un uomo che non conosce la vera disperazione. Se non lo conosci, allora permettimi di insegnarti. Questo è il volto della vera disperazione.";
-
 }
 elseif (strpos($text, "sciocc") !== false)
 {
 	$response = "Sei uno sciocco. Cerchi volentieri di sfidare un avversario molto più potente di te tanto da provare una paura primordiale nel tuo essere. Incomprensibile. Se questo è il lavoro del cuore di cui parli, quindi è perché posseggono questo cuore che gli umani si fanno del male, perché possiedi questo cuore che perdi la vita?.";
-
 }
 elseif (strpos($text, "pietà") !== false)
 {
 	$response = "Capisco. Quindi non mostri pietà. Proprio come un vero Hollow";
-	
-}
 
+}
 
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
