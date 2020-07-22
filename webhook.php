@@ -79,7 +79,7 @@ elseif (strpos($text, "sciocc") !== false)
 }
 elseif (strpos($text, "pietà") !== false)
 {
-	$response = "Capisco. Quindi non mostri pietà. Proprio come Hollow";
+	$response = "Capisco. Quindi non mostri pietà. Proprio come un vero Hollow";
 
 }
 
