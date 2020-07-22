@@ -78,9 +78,11 @@ elseif (strpos($text, "sciocc") !== false)
 elseif (strpos($text, "pietà") !== false)
 {
 	$response = "Capisco. Quindi non mostri pietà. Proprio come un vero Hollow";
-
 }
-
+elseif (strpos($text, "ulquiorra") !== false)
+{
+	$response = "4° espada al servizio di Aizen dell'esercito degli Arrancar; Ulquiorra è una figura molto fredda, insensibile e spassionata, ed è piuttosto distaccata, meditabonda e indifferente, disposta a nuocere ai suoi compagni oltre ai suoi nemici nel caso si mettessero sulla sua strada. Si riferisce a chiunque non trovi interessante come 'spazzatura' e li considera sacrificabili. Nonostante ciò, come la maggior parte degli altri espada principali, non è particolarmente violento e combatterà solo se provocato o ordinato da Aizen.";
+}
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
