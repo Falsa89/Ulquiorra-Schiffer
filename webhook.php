@@ -83,17 +83,7 @@ elseif (strpos($text, "pietà") !== false)
 
 }
 
-// elseif (strpos($text, "comandi Zaraki Kenpachi")
-// {
-//	$response = "ciao
-//	nome
-//  forte
-//  spammando
-//  pazzo
-//  perso
-//  stanco
-//	lista comandi";
-// }
+
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
 echo json_encode($parameters);
