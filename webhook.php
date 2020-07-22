@@ -44,7 +44,7 @@ if (strpos($text, "fine") !== false)
 }
 elseif (strpos($text, "mort") !== false)
 {
-	$response = "Cosa vuoi sentirti dire da me...? non preuccuparti è sicuramente vivo? scordatelo.io non sono qui per coccolarti.non ti capisco tanto prima o poi tutti i tuoi compagni verranno annientati, che uno muoia prima o dopo non fa differenza, avrebbero dovuto prevederlo fin dall'inizio. Se non ci sono riusciti la colpa risiede nella loro imbecillità, dovresti riderci sopra e basta pensando a quanto sono stupidi perche non ci riesci?.... mi sarei arrabbiato davanti alla stupidità di chi si precipita qui senza nemmeno pensare a soppesare le proprie abilità";
+	$response = "Cosa vuoi sentirti dire da me...? non preuccuparti è sicuramente vivo? scordatelo. Io non sono qui per coccolarti. Non ti capisco tanto prima o poi tutti i tuoi compagni verranno annientati, che uno muoia prima o dopo non fa differenza, avrebbero dovuto prevederlo fin dall'inizio. Se non ci sono riusciti la colpa risiede nella loro imbecillità, dovresti riderci sopra e basta pensando a quanto sono stupidi perche non ci riesci?.... mi sarei arrabbiato davanti alla stupidità di chi si precipita qui senza nemmeno pensare a soppesare le proprie abilità";
 
 }
 elseif (strpos($text, "vittoria") !== false)
