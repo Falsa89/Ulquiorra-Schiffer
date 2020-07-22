@@ -1,7 +1,7 @@
 <?php
 
 // PARAMETRI DA MODIFICARE
-$WEBHOOK_URL = 'https://ulquiorraschiffer.herokuapp.com/execute.php';
+$WEBHOOK_URL = 'https://ulquiorraschiffer.herokuapp.com/webhook.php';
 $BOT_TOKEN = '1245166485:AAFrYttGfp0hyrFr9padDgHppExk21ZkW8M';
 
 // NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
