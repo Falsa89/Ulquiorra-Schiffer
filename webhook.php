@@ -36,9 +36,9 @@ elseif (strpos($text, "desider") !== false)
 }
 elseif (strpos($text, "donna") !== false)
 {
-	$response = "Vieni con me donna, non parlare. L'unica parola che ti è permessa è "si". Qualsiasi altra cosa tu dica è morte, non per te ma per i tuoi compagni. Non chiedere niente non raccontare niente, tu non hai nessun diritto ... Comprendilo bene, questa non è una negoziazione, è un ordine, donna.";
+	$response = "Vieni con me donna, non parlare. L'unica parola che ti è permessa è 'si'. Qualsiasi altra cosa tu dica è morte, non per te ma per i tuoi compagni. Non chiedere niente non raccontare niente, tu non hai nessun diritto ... Comprendilo bene, questa non è una negoziazione, è un ordine, donna.";
 }
-if (strpos($text, 'fine') !== false) 
+if (strpos($text, "fine") !== false) 
 {
 	$response = "Gli è rimasta ancora un po' di reatsu... ma questo è il suo limite... è la fine. la vostra fortuna è finita.. il sole è già tramontato nel palmo delle nostre mani!";
 }
@@ -54,7 +54,7 @@ elseif (strpos($text, "vittoria") !== false)
 }
 elseif (strpos($text, "cuore") !== false)
 {
-	$response = "Cuori, dite? Voi umani siete sempre così veloci nel parlare di tali cose. Come se portaste i vostri cuori nei palmi delle mani. Ma questo mio occhio percepisce tutto. Non c'è niente che questo occhio non riesca a vedere, se non lo vede, allora non esiste. Questo è il presupposto in base al quale ho sempre combattuto. Che cos'è questo cuore? Se ti strappo quel torace, lo vedrò lì? Se Apro il tuo cranio, lo vedrò lì?";
+	$response = "Cuore, dici? Voi umani siete sempre così veloci nel parlare di tali cose. Come se portaste i vostri cuori nei palmi delle mani. Ma questo mio occhio percepisce tutto. Non c'è niente che questo occhio non riesca a vedere, se non lo vede, allora non esiste. Questo è il presupposto in base al quale ho sempre combattuto. Che cos'è questo cuore? Se ti strappo quel torace, lo vedrò lì? Se Apro il tuo cranio, lo vedrò lì?";
 
 }
 elseif (strpos($text, "debole") !== false)
