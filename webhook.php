@@ -22,7 +22,7 @@ if(strpos($text, "/start") === 0 || $text=="espada")
 {
 	$response = "......!";
 }
-elseif($text=="vita")
+elseif (strpos($text, "vita") !== false)
 {
 	$response = "Le cose che venivano riflesse nei miei occhi non avevano significato. Le cose che non potevano essere riflesse nei miei occhi non esistevano.";
 }
@@ -30,15 +30,15 @@ elseif (strpos($text, "significato") !== false)
 {
 	$response = "Il nostro mondo non ha alcun significato, neppure noi che ci viviamo abbiamo alcun significato, noi.... privi di significato, pensiamo al mondo nonostante anche l’essere consci che non abbia significato farlo, sia privo di significato";
 }
-elseif($text=="desiderio")
+elseif (strpos($text, "desiderio") !== false)
 {
 	$response = "Possiedo un cuore dunque invidio, possiedo un cuore dunque divoro, possiedo un cuore dunque depredo, possiedo un cuore dunque sono pigro, possiedo un cuore dunque sono superbo, possiedo un cuore dunque mi adiro, possiedo un cuore dunque desidero tutto!";
 }
-elseif($text=="fine")
+elseif (strpos($text, "fine") !== false)
 {
 	$response = "Gli è rimasta ancora un po' di reatsu... ma questo è il suo limite... è la fine. la vostra fortuna è finita.. il sole è già tramontato nel palmo delle nostre mani!";
 }
-elseif($text=="morto")
+elseif (strpos($text, "morto") !== false)
 {
 	$response = "Cosa vuoi sentirti dire da me...? non preuccuparti è sicuramente vivo? scordatelo. Io non sono qui per coccolarti. Non ti capisco tanto prima o poi tutti i tuoi compagni verranno annientati, che uno muoia prima o dopo non fa differenza, avrebbero dovuto prevederlo fin dall'inizio. Se non ci sono riusciti la colpa risiede nella loro imbecillità, dovresti riderci sopra e basta pensando a quanto sono stupidi perche non ci riesci?.... mi sarei arrabbiato davanti alla stupidità di chi si precipita qui senza nemmeno pensare a soppesare le proprie abilità";
 
